@@ -46,7 +46,7 @@ def socket_port(ip, port):
 
 
 def get_ip_port(port_list, ip):
-    for i in range(22, 10000):
+    for i in range(22, 20000):
         port_list.append(([ip, int(i)], None))
 
 
