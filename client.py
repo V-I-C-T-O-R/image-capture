@@ -67,8 +67,8 @@ class Camera:
 
 if __name__ == '__main__':
     camera = Camera()
-    # camera.addr_port[0]=input("Please input IP:")
-    camera.addr_port[0] = '127.0.0.1'
+    camera.addr_port[0]=input("please input your target ip:")
+    # camera.addr_port[0] = '127.0.0.1'
     camera.addr_port = tuple(camera.addr_port)
     camera.Socket_Connect()
     camera.Get_Data(camera.interval)
