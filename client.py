@@ -1,4 +1,4 @@
-# server端
+# client端
 import datetime
 import os
 

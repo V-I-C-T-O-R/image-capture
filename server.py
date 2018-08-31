@@ -1,4 +1,4 @@
-# client端
+# server端
 import os
 import socket
 import threading
